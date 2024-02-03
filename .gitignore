@@ -1,0 +1,6 @@
+.DS_Store
+/managed_components
+/build
+*.vscode 
+*.old
+/python_script
