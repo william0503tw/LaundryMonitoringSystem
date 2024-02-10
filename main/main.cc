@@ -1,3 +1,4 @@
+#include <Adafruit_LIS3DH.h>
 #include <Arduino.h>
 #include <Quectel_BC260.h>
 #include <stdio.h>

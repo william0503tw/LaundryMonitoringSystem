@@ -76,6 +76,10 @@ set(CORE_SRCS
 
 set(LIBRARY_SRCS
   libraries/Quectel-BC260/src/Quectel_BC260.cpp
+  libraries/Adafruit_LIS3DH/Adafruit_LIS3DH.cpp
+  libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp
+  libraries/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp
+
   libraries/ArduinoOTA/src/ArduinoOTA.cpp
   libraries/AsyncUDP/src/AsyncUDP.cpp
   libraries/BluetoothSerial/src/BluetoothSerial.cpp
@@ -179,6 +183,10 @@ set(includedirs
   variants/${CONFIG_ARDUINO_VARIANT}/
   cores/esp32/
   libraries/Quectel-BC260/src
+  libraries/Adafruit_LIS3DH
+  libraries/Adafruit_BusIO
+  libraries/Adafruit_Unified_Sensor
+
   libraries/ArduinoOTA/src
   libraries/AsyncUDP/src
   libraries/BLE/src
